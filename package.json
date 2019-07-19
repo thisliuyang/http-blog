@@ -13,6 +13,11 @@
     "art-template": "^4.13.2",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "express-art-template": "^1.0.1"
+    "express-art-template": "^1.0.1",
+    "jquery": "^3.4.1",
+    "nicescroll": "^3.7.4",
+    "scrollreveal": "^4.0.5",
+    "sticky": "^0.8.0",
+    "swiper": "^4.5.0"
   }
 }
