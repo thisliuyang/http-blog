@@ -1162,17 +1162,14 @@ a.button:hover:after {
   justify-content: center;
   margin: 80px auto 80px;
   text-align: center;
-  overflow: hidden;
 }
 
 .contact-con img {
   display: inline-block;
-  float: left;
   max-width: 167px;
 }
 
 .contact-emal {
-  float: right;
   padding: 20px 0 0 20px;
 }
 
@@ -1841,6 +1838,9 @@ footer .bottom {
 
   .contact-con {
     width: 310px;
+  }
+  .contact-con img {
+    width: 50%;
   }
 
   .partner {
