@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow: hidden;">
+<html lang="en">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -59,7 +59,6 @@
         </div>
       </div>
 
-      <!-- Add Pagination -->
       <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
           class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
           class="swiper-pagination-bullet"></span></div>
@@ -450,7 +449,7 @@
         <br>简单做人，用心做事
       </p>
       <div class="contact-con">
-        <img src="./public/images/liuyangwechat.jpg" width="167" data-scroll-reveal="enter left after .5s"
+        <img src="./public/images/liuyangwechat.jpg" data-scroll-reveal="enter left after .5s"
           data-scroll-reveal-id="35">
         <div class="contact-emal" data-scroll-reveal="enter right after .5s">
           <span>刘洋:<br></span>
@@ -479,7 +478,6 @@
       <li><a class="icon-googleplus" href="https://plus.google.com/u/0/" rel="nofollow"></a></li>
     </ul>
     <div class="bottom">THANKS</div>
-    <div class="bottom">备案号: 鄂ICP备19004686号</div>
   </footer>
   <!-- JavaScript脚本 -->
   <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script> -->
@@ -487,7 +485,7 @@
   <!-- Swiper JS -->
   <script src="./public/js/swiper.min.js"></script>
   <!-- 更改滚动条 -->
-  <script src="./public/js/jquery.nicescroll.min.js"></script>
+  <!-- <script src="./public/js/jquery.nicescroll.min.js"></script> -->
   <!-- 让页面流畅滚动 让导航贴住顶部 -->
   <script src="./public/js/jquery.sticky.js"></script>
   <script src="./public/js/scrollReveal.js"></script>
@@ -552,11 +550,11 @@
 
     // niceScroll
     // var a = $("html").niceScroll();
-    $(document).ready(
-        function() {
-          $("html").niceScroll({zindex: 200});
-        }
-      );
+    // $(document).ready(
+    //     function() {
+    //       $("html").niceScroll({zindex: 200});
+    //     }
+    //   );
     // window.addEventListener('touchmove', func, { passive: true })
     // 固定导航
     $("nav").sticky({ topSpacing: 0 });

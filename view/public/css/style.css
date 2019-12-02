@@ -355,7 +355,7 @@ background-position: -100px 0;
 /*联系我*/
 .contact{background: #f7f7f7; overflow: hidden; }
 .contact-con{ display: flex; justify-content: center; margin:80px auto 80px; text-align: center; overflow:hidden; }
-.contact-con img{ display:inline-block; float: left; }
+.contact-con img{ display:inline-block; float: left; max-width: 167px;}
 .contact-emal{float: right; padding: 20px 0 0 20px;}
 .contact-emal span{ font-size: 16px; text-align: left; display: block; margin-bottom: 22px; }
 
